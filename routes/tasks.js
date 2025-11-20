@@ -12,7 +12,7 @@ function ensureAuthenticated(req, res, next) {
   }
   // If you're not using auth yet, just call next() instead:
   // return next();
-  req.flash('error_msg', 'Please log in to manage tasks');
+  req.flash('error_msg', 'Please log in to use this feature');
   res.redirect('/auth/login');
 }
 
@@ -38,9 +38,9 @@ router.get('/', async (req, res) => {
 router.get('/create', ensureAuthenticated, (req, res) => {
   res.render('tasks/form', {
     title: 'Create Task',
-    formAction: '/tasks/create',   // 👈 used in form.ejs
-    submitLabel: 'Create',         // 👈 used in form.ejs
-    task: {},                      // empty task object
+    formAction: '/tasks/create',   
+    submitLabel: 'Create',         
+    task: {},                      
   });
 });
 
@@ -75,8 +75,8 @@ router.get('/edit/:id', ensureAuthenticated, async (req, res) => {
 
     res.render('tasks/form', {
       title: 'Edit Task',
-      formAction: `/tasks/edit/${req.params.id}`, // 👈 used in form.ejs
-      submitLabel: 'Update',                      // 👈 used in form.ejs
+      formAction: `/tasks/edit/${req.params.id}`, 
+      submitLabel: 'Update',                      
       task,
     });
   } catch (err) {
