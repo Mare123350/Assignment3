@@ -49,7 +49,7 @@ This project was created for **INFR3120 – Assignment 3 (CRUD + Authentication 
 - **MongoDB Atlas** with **Mongoose**
 - **Passport.js** with Local strategy
 - **express-session**, **connect-flash**, **bcryptjs**
-- Deployed to **CLOUD PROVIDER NAME HERE** (e.g., Azure / Render / DigitalOcean)
+- Deployed to **Render** 
 
 ---
 
@@ -85,6 +85,6 @@ taskflow-manager/
 │       └── footer.ejs
 └── public/
     ├── css/
-    │   └── style.css       # Custom stylesheet (note for assignment)
-    └── js/
-        └── main.js         # (optional, if you add JS later)
+    │   └── style.css       # Custom stylesheet 
+    
+        

@@ -182,7 +182,7 @@ form .btn {
   display: inline-block !important;
 }
 
-/* Make the secondary hero button more visible */
+
 .hero-secondary-btn {
   background-color: rgba(255, 255, 255, 0.95);
   color: #1f2937; /* dark text */
