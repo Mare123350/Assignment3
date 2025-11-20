@@ -9,7 +9,7 @@ This project was created for **INFR3120 – Assignment 3 (CRUD + Authentication 
 
 ## Live Demo
 
-- 🌐 Deployed App: **https://YOUR-CLOUD-APP-URL-HERE/**
+- 🌐 Deployed App: **https://assignment3-e4zs.onrender.com**
 - 💾 GitHub Repository: **https://github.com/Mare123350/Assignment3.git**
 
 > The app is connected to a MongoDB Atlas cluster and uses environment variables to keep credentials secure.
